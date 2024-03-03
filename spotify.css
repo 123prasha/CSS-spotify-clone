@@ -1,0 +1,267 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.content {
+    background-color: wheat;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1,5rem 0 1.5rem;
+}
+.sidebar {
+    background-color: #000;
+    width: 30S0px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+.music {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    
+}
+a {
+    text-decoration: none;
+}
+.sidebar .nav {
+    background-color:#121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+.nav1 {
+    line-height: 2.5rem;
+    opacity: 0.75;
+    padding: 0.35rem 0.75rem;
+}
+.nav1:hover {
+    opacity: 2;
+}
+.nav1 a {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.nav1 i {
+    font-size: 1.25rem;
+}
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.4rem;
+    height: 100%;
+ 
+}
+.lab {
+    display: flex;
+    justify-content: space-between;
+}
+.lab1 img {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 1rem;
+}
+.icon {
+    font-size: 1.25rem;
+    display: flex;
+    margin-top: 0.76rem;
+}
+.icon i {
+    opacity: 0.5;
+    margin-right: 1rem;
+}
+.icon i:hover {
+    opacity: 2;
+}
+.box {
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 0.5rem 0;
+    padding: 0.7rem 1rem;
+}
+.box .p1 {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #232323;
+}
+.box .p2 {
+      font-size: 0.85rem;
+    opacity: 0.75;
+    margin-top: 25px;
+    background-color: #232323;
+}
+.badge {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.bad {
+    background-color: #000;
+    color: #ffffff;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 4;
+}
+.stickyimg {
+    margin-left: 0.80rem;
+}
+.stickybadge {
+    margin-right: 1rem;
+}
+.stickybadge button {
+    margin-right: 1rem;
+}
+@media (max-width: 1000px){
+    .hide {
+        display: none;
+    }
+}
+.card {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.card p {
+    
+    background-color: #232323;
+}
+.card1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardimg {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title {
+    font-weight: 700;
+    padding: 0.8rem 0 0 0;
+}
+.card-info {
+    font-size: 0.7rem;
+    opacity: 0.8;
+    padding: 0.8rem 0 0.8rem 0;
+}
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot {
+    width: 90%;
+    border-top: 2px solid white;
+}
+.music {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album {
+    width: 25%;
+}
+.player {
+    width: 50%;
+    margin-left: 1rem;
+}
+.control {
+    width: 25%;
+}
+ .a {
+   height: 1rem;
+   margin-right: 1rem;
+   opacity: 0.7;
+}
+.a:hover {
+    opacity: 1;
+}
+.playericon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.4rem;
+}
+.range {
+    width: 70%;
+}
+.album {
+    display: flex;
+    justify-content: space-between;
+}
+.picture {
+    height: 60px;
+    margin-top: 1.5rem;
+}
+.albumtext {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+}
+.icon1 {
+    height: 25px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.icon2 {
+    margin-top: 3rem;
+    height: 30px;
+    margin-right: 1rem;
+}
+.control {
+    display: flex;
+    margin-top: 2rem;
+}
+.cicon1 {
+    height: 35px;
+}
+.cicon2 {
+    height: 35px;
+}
+.cicon3 {
+    height: 18px;
+    margin-top: 0.6rem;
+    opacity: 0.6;
+  
+}
+.cicon4 {
+    height: 17px;
+    margin-top: 0.6rem;
+    margin-left: 0.3rem;
+    opacity: 0.6;
+}
+.cicon5 {
+    height: 38px;
+    margin-left: 0.3rem;
+}
